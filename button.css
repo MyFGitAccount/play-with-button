@@ -1,0 +1,18 @@
+
+
+#player-win-color{
+  color: red;
+}
+
+#computer-win-color{
+    color:green;
+}
+
+#draw-color{
+    color:yellow;
+}
+
+#Counter{
+    text-align: center;
+    border:medium solid black;
+}
