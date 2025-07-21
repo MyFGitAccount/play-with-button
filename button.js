@@ -100,3 +100,10 @@ audioButton.addEventListener("click", () => {
     const index = Math.floor(Math.random() * sounds.length);
     sounds[index].play();
   });
+
+  let footerTime=document.getElementById("footer-time");
+
+  let timeNow=new Date();
+  
+
+  footerTime.textContent=timeNow.toString();
